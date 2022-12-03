@@ -1,0 +1,121 @@
+.cart-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 1;
+}
+
+.myCart {
+  position: fixed;
+  padding: 1rem;
+  z-index: 1;
+  top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.cart-items {
+  padding: 0 1rem;
+  max-height: 20rem;
+  overflow-y: scroll;
+  scrollbar-width: 0.2rem;
+}
+
+.cart-items::-webkit-scrollbar {
+  width: 7px;
+}
+.cart-items::-webkit-scrollbar-thumb {
+  background: rgb(134, 134, 134);
+  border-radius: 30px;
+}
+.cart-items::-webkit-scrollbar-thumb:hover {
+  background: rgb(116, 116, 116);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.cart-item-left-side h3 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.cart-item-left-side > div {
+  display: flex;
+  justify-content: space-between;
+  width: 7rem;
+  font-weight: bold;
+}
+.cart-item-price {
+  color: brown;
+}
+.cart-item-right-side button {
+  color: brown;
+  font-size: 1rem;
+  font-weight: bold;
+  background: none;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+  margin: 0.2rem;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+}
+.cart-item-right-side button:hover {
+  border: 1px brown solid;
+}
+.myCart h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.total-amount-area {
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.total-amount-area h3 {
+  margin: 0;
+}
+.sum-up-buttons {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.sum-up-buttons button {
+  border: 1px brown solid;
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.close-cart-btn {
+  background: none;
+  color: brown;
+}
+.close-cart-btn:hover,
+.order-cart-btn:hover {
+  color: white;
+  background-color: rgb(140, 27, 27);
+}
+.order-cart-btn {
+  margin-left: 0.5rem;
+  color: white;
+  background-color: brown;
+}
+
+.myCart hr {
+  border-width: 2px 0 0 0;
+  border-color: rgb(219, 139, 139);
+}

@@ -1,0 +1,57 @@
+error	 2022-11-02 10:52:39 	 ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+error	 2022-11-02 10:55:13 	 ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+error	 2022-11-02 12:24:38 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:24:55 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:32:23 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:32:37 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:33:10 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:33:31 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:33:32 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:33:58 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:35:12 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:35:55 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:35:58 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:36:16 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:36:42 	 ER_BAD_FIELD_ERROR: Unknown column 'device.type' in 'on clause'
+error	 2022-11-02 12:51:51 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type, 34, 34, 23, 45)' at line 2
+error	 2022-11-02 01:04:28 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', node_id = 12345, minimum_value = 0, maximum_value = 100, value = 70 WHERE id =' at line 1
+error	 2022-11-02 01:31:00 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', node_id = 34523, minimum_value = 33, maximum_value = 33, value = 33 WHERE id =' at line 1
+error	 2022-11-02 01:31:14 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', node_id = 34523, minimum_value = 33, maximum_value = 33, value = 33 WHERE id =' at line 1
+error	 2022-11-02 01:34:50 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', node_id = 24234, minimum_value = 23, maximum_value = 33, value = 33 WHERE id =' at line 1
+error	 2022-11-02 01:36:36 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:37:02 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:37:46 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:38:54 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'window, node_id = 24234, minimum_value = 23, maximum_value = 33, value = 33 WHER' at line 1
+error	 2022-11-02 01:38:59 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'window, node_id = 24234, minimum_value = 23, maximum_value = 33, value = 33 WHER' at line 1
+error	 2022-11-02 01:40:26 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'window, node_id = 24234, minimum_value = 23, maximum_value = 33, value = 33 WHER' at line 1
+error	 2022-11-02 01:40:36 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:44:10 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:45:10 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:48:54 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:49:17 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:49:52 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:50:39 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:50:48 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:54:03 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:55:03 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:59:08 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:59:16 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 01:59:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 02:00:00 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 02:00:07 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 02:04:45 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 02:11:05 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 02:12:17 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 02:12:27 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 02:15:09 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', node_id = 24234, minimum_value = 23, maximum_value = 33, value = 33 WHERE id =' at line 1
+error	 2022-11-02 02:15:18 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', node_id = 24234, minimum_value = 23, maximum_value = 33, value = 33 WHERE id =' at line 1
+error	 2022-11-02 02:15:34 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 02:17:35 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-02 05:46:47 	 route not found!
+error	 2022-11-03 11:53:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-03 11:53:50 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-03 11:53:52 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-03 11:54:08 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-11-03 11:54:17 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	 2022-12-05 01:36:06 	 route not found!
+error	 2022-12-05 01:36:29 	 route not found!

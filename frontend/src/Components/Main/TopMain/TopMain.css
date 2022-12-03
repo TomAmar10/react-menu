@@ -1,0 +1,42 @@
+.TopMain {
+  width: 100%;
+  height: 28rem;
+}
+
+.TopMain .img-container {
+  display: flex;
+}
+
+.TopMain .img-container img {
+  height: 20rem;
+  width: 100%;
+}
+
+.delicious-food-modal {
+  background-color: rgb(56, 55, 55);
+  width: 30rem;
+  color: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 15rem;
+  padding: 0rem 1rem;
+  border-radius: 20px;
+  box-shadow: 2px 1px 2px 1px black;
+  text-align: center;
+  animation: delicious-food-appear 1s ease-out forwards;
+}
+
+@keyframes delicious-food-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

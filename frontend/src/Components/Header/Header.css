@@ -1,0 +1,64 @@
+.Header {
+  font-size: 2rem;
+  color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  background-color: brown;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.Header button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  background-color: rgb(88, 22, 22);
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Header button span {
+  padding: 0.2rem 0.8rem;
+  border-radius: 45%;
+  background-color: brown;
+  margin: 0 0 0 1rem;
+}
+.Header button:hover {
+  background-color: rgb(71, 16, 16);
+}
+.Header button img {
+  margin: 0 1rem 0 0;
+  width: 1.4rem;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
